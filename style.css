@@ -11,16 +11,13 @@ body {
     width: 100%;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     /* display: grid;
     place-items: center; */
 }
 
 header {
-    width: 70%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     /* border: 1px solid #000; */
     background: linear-gradient(125deg, #74a436, #018a1f);
     border-radius: 10px;
@@ -158,8 +155,8 @@ header section .main{
     z-index: 1;
 }
 header section .greenade{
-    position: absolute;
-    width: 400px;
+    position: sticky;
+    width: 320px;
     left: 35%;
     top: 14%;
     filter: drop-shadow(30px 30px 20px rgb(0,0,0,.8))
