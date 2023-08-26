@@ -156,8 +156,8 @@ header section .main{
 }
 header section .greenade{
     position: sticky;
-    width: 320px;
-    left: 35%;
+    width: 300px;
+    left: 55%;
     top: 14%;
     filter: drop-shadow(30px 30px 20px rgb(0,0,0,.8))
     drop-shadow(50px 50px 20px rgb(0,0,0,.2))
