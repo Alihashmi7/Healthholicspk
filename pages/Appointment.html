@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Astyles.css">
+    <title>Appointment Booking</title>
+</head>
+<body>
+    <header>
+        <h1>Book Appointment </h1>
+    </header>
+    <main>
+        <form id="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <button type="submit">Book Appointment</button>
+        </form>
+        <div id="confirmation" class="hidden">
+            <p>Thank you for booking an appointment! Details:</p>
+            <p>Name: <span id="confirmed-name"></span></p>
+            <p>Email: <span id="confirmed-email"></span></p>
+            <p>Date: <span id="confirmed-date"></span></p>
+            <p>Time: <span id="confirmed-time"></span></p>
+        </div>
+    </main>
+    <script src="/java/Ascript.js"></script>
+</body>
+</html>
