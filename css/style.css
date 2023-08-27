@@ -154,14 +154,13 @@ header section .main{
     bottom: -35px;
     z-index: 1;
 }
-header section .greenade{
-    position: absolute;
-    width: 400px;
-    left: 35%;
-    top: 14%;
+header section .greenade {
+    position: sticky;
+    width: 144px;
+    left: 45%;
+    top: 15%;
     filter: drop-shadow(30px 30px 20px rgb(0,0,0,.8))
-    drop-shadow(50px 50px 20px rgb(0,0,0,.2))
-    ;
+        drop-shadow(50px 50px 20px rgb(0,0,0,.2));
     z-index: 1;
 }
 header aside {
